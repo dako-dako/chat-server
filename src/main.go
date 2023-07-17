@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/AXYGEN0141/chat-server/cmd"
 
 func main() {
-	fmt.Println("Hello world!")
+	cmd.Execute()
 }
