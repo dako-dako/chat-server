@@ -1,10 +1,11 @@
 package cmd
 
 import (
+	"os"
+
 	"github.com/AXYGEN0141/chat-server/cmd/server"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
-	"os"
 )
 
 var rootCmd = &cobra.Command{
